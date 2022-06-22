@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F915F4628629DE5009482F1 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F915F4528629DE5009482F1 /* HTTPClient.swift */; };
 		0F95838528197B53006D7505 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F95837C28197B53006D7505 /* EssentialFeed.framework */; };
 		0F95838A28197B53006D7505 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F95838928197B53006D7505 /* EssentialFeedTests.swift */; };
 		0F95838B28197B53006D7505 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F95837F28197B53006D7505 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F915F4528629DE5009482F1 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		0F95837C28197B53006D7505 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F95837F28197B53006D7505 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		0F95838428197B53006D7505 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				0FC9423F281ECA3D0054D4FE /* RemoteFeedLoader.swift */,
+				0F915F4528629DE5009482F1 /* HTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				0F95839728197CF8006D7505 /* FeedLoader.swift in Sources */,
 				0FC94240281ECA3D0054D4FE /* RemoteFeedLoader.swift in Sources */,
+				0F915F4628629DE5009482F1 /* HTTPClient.swift in Sources */,
 				0F95839528197C55006D7505 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
